@@ -49,7 +49,7 @@ console.log("Cor do semáforo",corDoSemaforo("verde"));
 let frutas = ['maça', 'banana', 'uva', 'morango']
 
 //Adicionando um item na lista. Usamos push();
-frutas.push("laranja");
+frutas.push("laranja"); 
 
 //Adicionando um item na lista ao inicio. Usamos unshifit();
 frutas.unshift("pera");
