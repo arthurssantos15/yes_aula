@@ -1,5 +1,5 @@
 //LAÇOS DE REPETIÇÕES:
-//FOR - Itera sobre a lsita com condições específicas
+//FOR - Itera sobre a lista com condições específicas
 
 //EXEMPLO: 
 
@@ -10,7 +10,7 @@ for(let n =0; n < 5; n++){ //Declara a variável let n = 0 com o valor inicial 0
     console.log(n);
 };
 
-let cor = "branca";
+let cor = "azul";
 
 switch(cor){
     case "branca":
