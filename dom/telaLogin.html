@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        .bodyDark{
+        background-image: url("https://us.123rf.com/450wm/releon003/releon0031903/releon003190300168/118169680-fundo-preto-antigo-textura-grunge-papel-de-parede-escuro-blackboard-chalkboard.jpg?ver=6");       
+        background-size:auto;
+    }
+        .bodyLight{
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: auto;
+        }
+        .container-login{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        color:rgb(8, 8, 8);
+        box-shadow: 10px 10px 40px;
+        border-radius: 50px;
+    }
+        .container-button{
+        align-items: start;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+
+    }
+        .temaLight{
+        background-color:rgb(247, 232, 201);
+        color:rgb(175, 35, 35);
+        box-shadow: black;
+        padding: 0.4rem;
+        align-items: center;
+        
+    }
+   
+        .temaDark{
+        background-color: rgb(0, 0, 0);
+        color:blue;
+        box-shadow: 2px 2px 3px rgb(51, 49, 185);
+        padding: 0.4rem;
+        align-items: center;
+        
+    } 
+        .btn{
+        background-color: cadetblue;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+    }
+        .password{
+        color: #0f0e0e;
+    }
+        .email{
+        color: #e4cfcf;
+        }
+    </style>
+</head>
+<body>
+    
+<div class = "container-login">
+    <h1 id = "Login"> Login </h1>
+    <p> Digite os seus dados de acesso abaixo</p>
+    <label for="email" class="email">E-mail</label>
+    <input type="email" placeholder="Insira seu email">
+    <br>
+    <label for="password" class="password">Senha</label>
+    <input type="password" placeholder="Digite sua senha">
+    <br>
+    <input type="submit" value="Acessar" class="btn">
+</div>
+    <div class="container-button">
+        <button id ="bntDark">Dark</button>
+        <button id ="bntLight">Light</button>
+    </div>
+
+
+   
+<script>
+     
+
+    //APLICANDO TEMA DARK 
+    function aplicarTemaEscuro(){
+        let fundo = document.body;
+        let titulo = document.getElementById("Login");
+        titulo.textContent = "Login";
+        fundo.classList.add("bodyDark");
+        fundo.classList.remove("bodyLIght");
+        titulo.classList.remove("temaLight");
+        titulo.classList.add("temaDark");
+        console.log("Tema Dark aplicado");
+    }
+    //APLICANDO TEMA LIGHT
+    function aplicarTemaClaro(){
+        let fundo = document.body;
+        let titulo = document.getElementById("Login");
+        titulo.textContent = "Login";
+        fundo.classList.add("bodyLight");
+        fundo.classList.remove("bodyDark");
+        titulo.classList.remove("temaDark");
+        titulo.classList.add("temaLight");
+        console.log("Tema Light aplicado");
+    }
+
+    document.getElementById("bntDark").onclick = aplicarTemaEscuro;
+    document.getElementById("bntLight").onclick = aplicarTemaClaro;
+</script>
+</body>
+</html>
